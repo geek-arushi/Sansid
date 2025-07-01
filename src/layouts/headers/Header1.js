@@ -25,9 +25,6 @@ const Header1 = ({ headerTopbar, position }) => {
                   <li>
                     <Link href="/gallery">Gallery</Link>
                   </li>
-                  <li>
-                    <Link href="/about">About Us</Link>
-                  </li>
                 </ul>
               </div>
               <div className="col-lg-8">
@@ -80,9 +77,6 @@ const Header1 = ({ headerTopbar, position }) => {
                   <Link href="/">
                     <a>
                       Home
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
                     </a>
                   </Link>
                   <ul className="sub-menu">
@@ -93,36 +87,9 @@ const Header1 = ({ headerTopbar, position }) => {
                   <Link href="about">About</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Pages
-                    <span className="dd-trigger">
-                      <i className="far fa-plus" />
-                    </span>
-                  </a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link href="service">
-                        <a>
-                          Services
-                          <span className="dd-trigger">
-                            <i className="far fa-plus" />
-                          </span>
-                        </a>
-                      </Link>
-                      <ul className="sub-menu">
-                        <Services />
-                      </ul>
-                    </li>
-                    <Pages />
-                  </ul>
-                </li>
-                <li>
                   <Link href="/doctor">
                     <a>
-                      Doctors
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
+                      Products
                     </a>
                   </Link>
                   <ul className="sub-menu">
@@ -133,9 +100,6 @@ const Header1 = ({ headerTopbar, position }) => {
                   <Link href="blog-standard">
                     <a>
                       Blog
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
                     </a>
                   </Link>
                   <ul className="sub-menu">
@@ -146,9 +110,6 @@ const Header1 = ({ headerTopbar, position }) => {
                   <Link href="/shop">
                     <a>
                       Shop
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
                     </a>
                   </Link>
                   <ul className="sub-menu">
@@ -158,6 +119,9 @@ const Header1 = ({ headerTopbar, position }) => {
                 <li>
                   <Link href="/contact">Contact</Link>
                 </li>
+                <li>
+                    <Link href="/faq">Faq</Link>
+                  </li>
               </ul>
             </nav>
           </div>
