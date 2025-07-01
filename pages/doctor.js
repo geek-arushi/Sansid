@@ -18,43 +18,6 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>SANZAN-AI</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">30ML</span>
-                  {/* <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li> */}
-                  {/* </ul> */}
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/02.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
                       <a>SANERGY BOOSTER</a>
                     </Link>
                   </h5>
@@ -84,55 +47,18 @@ const Doctor = () => {
                 </div>
               </div>
             </div>
-            {<div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/04.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>SIDPLEX</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">100ML</span>
-                  {/* <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul> */}
-                </div>
-              </div>
-            </div> }
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
-                  <img src="assets/img/doctors/05.jpg" alt="Image" />
+                  <img src="assets/img/doctors/02.jpg" alt="Image" />
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>SIDPLEX</a>
+                      <a>SANZAN-AI</a>
                     </Link>
                   </h5>
-                  <span className="specialty">100ML</span>
+                  <span className="specialty">30ML</span>
                   {/* <ul className="social-links">
                     <li>
                       <a href="#">
@@ -161,7 +87,23 @@ const Doctor = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
-                  <img src="assets/img/doctors/06.jpg" alt="Image" />
+                  <img src="assets/img/doctors/03.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SIDPLEX</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">100ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/04.jpg" alt="Image" />
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
@@ -169,7 +111,39 @@ const Doctor = () => {
                       <a>SANVORM</a>
                     </Link>
                   </h5>
-                  <span className="specialty">1BOLUS</span>
+                  <span className="specialty">1 BOLUS</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/05.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANMAC 12</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">30ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/06.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANVITAM-H</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">1L</span>
                   
                 </div>
               </div>
@@ -182,10 +156,10 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Johnny R. Atterberry</a>
+                      <a>SANCAL-PLUS</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
+                  <span className="specialty">200ML</span>
                   
                 </div>
               </div>
@@ -198,10 +172,10 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Erik R. Faulkner</a>
+                      <a>SANTI X</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
+                  <span className="specialty"></span>
                   
                 </div>
               </div>
@@ -214,26 +188,10 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Phillip L. Williams</a>
+                      <a>SANCAL ADVANCE GEL</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                 
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/10.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Michael I. Johnson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
+                  <span className="specialty">300GM</span>
                   
                 </div>
               </div>
@@ -244,15 +202,31 @@ const Doctor = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
+                  <img src="assets/img/doctors/10.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SIDRAZ</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">30*6ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
                   <img src="assets/img/doctors/11.jpg" alt="Image" />
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANCOOL POWDER</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
+                  <span className="specialty">600ML</span>
                   
                 </div>
               </div>
@@ -265,26 +239,10 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SANVORM-KIDS</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/13.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
+                  <span className="specialty">5*10 TABLETS</span>
                   
                 </div>
               </div>
@@ -294,15 +252,31 @@ const Doctor = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
+                  <img src="assets/img/doctors/13.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SAN-PLUS</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">100ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
                   <img src="assets/img/doctors/14.jpg" alt="Image" />
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANPLUS-SP</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
+                  <span className="specialty">100ML</span>
                   
                 </div>
               </div>
@@ -315,27 +289,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>MASTISID</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/16.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
-               
+                  <span className="specialty">50+50GM</span>
+                 
                 </div>
               </div>
             </div>
@@ -344,15 +302,31 @@ const Doctor = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
+                  <img src="assets/img/doctors/16.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANPLUS ULTRA</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">1*2BOLUS</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
                   <img src="assets/img/doctors/17.jpg" alt="Image" />
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANWORM 3.15-LA</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
+                  <span className="specialty">30ML</span>
                   
                 </div>
               </div>
@@ -365,14 +339,15 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SENROCIN</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
+                  <span className="specialty">100ML</span>
+                  </div>
               </div>
             </div>
+          </div>
+          <div className="row doctors-loop justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
@@ -381,16 +356,14 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SIDCEF-TAZO</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
+                  <span className="specialty">562.5MG</span>
                   
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row doctors-loop justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
@@ -399,11 +372,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANZON FORT</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                 
+                  <span className="specialty">100ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -415,26 +388,10 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SANNMIN POWDER</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/22.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
+                  <span className="specialty">1KG</span>
                   
                 </div>
               </div>
@@ -444,15 +401,281 @@ const Doctor = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
+                  <img src="assets/img/doctors/22.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANCAL GEL</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">300GM</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
                   <img src="assets/img/doctors/23.jpg" alt="Image" />
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SAN HEAT</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
+                  <span className="specialty">5*50GM</span>
+                
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/24.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>LIVSID</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">200ML</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row doctors-loop justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/25.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANBOOST</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">6 SACHET*20GM</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/26.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>CLOXSID</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">4.5GM</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/27.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SIDCEF</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">3GM</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row doctors-loop justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/28.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>LIVSID</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">500ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/29.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SENROCIN-LA</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">100ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/30.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANPUM</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">225ML</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row doctors-loop justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/31.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>MILK-SOAR LIQUID</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">500ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/32.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>ENSURE GARBHDHARAN</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">225ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/33.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANZON FORT</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">100ML</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row doctors-loop justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/34.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANROTONE</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">500ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/35.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANCAL-P</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">200ML</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/36.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANCAL-AD3</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">1L</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row doctors-loop justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/37.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>SANERGY BOOSTER</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">1L</span>
+                  
+                </div>
+              </div>
+            </div>
+            {/* <div className="col-lg-4 col-md-6 col-sm-9">
+              <div className="doctor-box-one mb-30">
+                <div className="doctor-photo">
+                  <img src="assets/img/doctors/38.jpg" alt="Image" />
+                </div>
+                <div className="doctor-information">
+                  <h5 className="name">
+                    <Link href="/doctor-details">
+                      <a>Greg S. Grinstead</a>
+                    </Link>
+                  </h5>
+                  <span className="specialty">Neurology</span>
                   <ul className="social-links">
                     <li>
                       <a href="#">
@@ -477,258 +700,8 @@ const Doctor = () => {
                   </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/24.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/25.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row doctors-loop justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/26.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Cardiology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/27.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/28.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row doctors-loop justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/29.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Cardiology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/30.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Neurology</span>
-                 
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/31.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row doctors-loop justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/32.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Cardiology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/33.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/34.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row doctors-loop justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/35.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Cardiology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/36.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/37.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Orthopedics</span>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row doctors-loop justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/38.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Cardiology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
+            </div> */}
+            {/* <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
                   <img src="assets/img/doctors/39.jpg" alt="Image" />
@@ -736,30 +709,35 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
-                    </Link>
-                  </h5>
-                  <span className="specialty">Neurology</span>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
-              <div className="doctor-box-one mb-30">
-                <div className="doctor-photo">
-                  <img src="assets/img/doctors/40.jpg" alt="Image" />
-                </div>
-                <div className="doctor-information">
-                  <h5 className="name">
-                    <Link href="/doctor-details">
                       <a>Roger K. Jackson</a>
                     </Link>
                   </h5>
                   <span className="specialty">Orthopedics</span>
-                 
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
 
