@@ -38,22 +38,7 @@ const MobileMenu = ({ mobileTrigger, setMobileTrigger }) => {
             <li>
               <Link href="/about">About</Link>
             </li>
-            <li>
-              <a href="#">
-                Pages
-                <span
-                  className="dd-trigger"
-                  onClick={() => activeMenuSet("Pages")}
-                >
-                  <i className="fas fa-angle-down" />
-                </span>
-              </a>
-              <ul className="sub-menu" style={activeLi("Pages")}>
-                <Services />
 
-                <Pages />
-              </ul>
-            </li>
             <li>
               <a href="#">
                 Doctors
