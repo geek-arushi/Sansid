@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/doctor.js"
+    ],
+    "/doctor-details": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/doctor-details.js"
     ]
   },
   "ampFirstPages": []

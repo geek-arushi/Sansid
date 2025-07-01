@@ -6,7 +6,7 @@ import Layouts from "../src/layouts/Layouts";
 const Doctor = () => {
   return (
     <Layouts>
-      <PageBanner title={"Meet The Doctors"} bgnone />
+      <PageBanner title={"SEE THE PRODUCTS"} bgnone />
       <section className="doctors-section section-gap">
         <div className="container">
           <div className="row doctors-loop justify-content-center">
@@ -743,7 +743,7 @@ const Doctor = () => {
 
           <div className="load-more-doctors text-center mt-40">
             <a href="#" className="template-btn template-btn-primary">
-              Male An Appointment <i className="far fa-plus"></i>{" "}
+              Contact Us <i className="far fa-plus"></i>{" "}
             </a>
           </div>
         </div>
