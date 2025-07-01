@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       {loader && <PreLoader />}
       <Head>
-        <title>Seeva - Medical and Dental React Nextjs Template</title>
+        <title>Sansid - Pharmacy</title>
         <link
           rel="shortcut icon"
           href="assets/img/favicon.ico"
