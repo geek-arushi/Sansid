@@ -15,9 +15,6 @@ export const Services = () => (
 );
 export const Doctor = () => (
   <Fragment>
-    <li>
-      <Link href="/doctor-details">Product Details</Link>
-    </li>
   </Fragment>
 );
 export const Blog = () => (
