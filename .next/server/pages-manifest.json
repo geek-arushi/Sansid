@@ -2,5 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
+=======
+  "/faq": "pages/faq.js",
+  "/about": "pages/about.js",
+  "/": "pages/index.js",
+>>>>>>> ddd363df3d55a3e70639ff0deebc98d80f7e6c69
   "/contact": "pages/contact.js"
 }

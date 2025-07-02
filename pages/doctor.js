@@ -6,7 +6,7 @@ import Layouts from "../src/layouts/Layouts";
 const Doctor = () => {
   return (
     <Layouts>
-      <PageBanner title={"Meet The Doctors"} bgnone />
+      <PageBanner title={"SEE THE PRODUCTS"} bgnone />
       <section className="doctors-section section-gap">
         <div className="container">
           <div className="row doctors-loop justify-content-center">
@@ -18,11 +18,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANERGY BOOSTER</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
+                  <span className="specialty">1L</span>
+                  {/* <ul className="social-links">
                     <li>
                       <a href="#">
                         <i className="fab fa-facebook-f"></i>
@@ -43,7 +43,7 @@ const Doctor = () => {
                         <i className="fab fa-linkedin"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -55,11 +55,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SANZAN-AI</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
+                  <span className="specialty">30ML</span>
+                  {/* <ul className="social-links">
                     <li>
                       <a href="#">
                         <i className="fab fa-facebook-f"></i>
@@ -80,7 +80,7 @@ const Doctor = () => {
                         <i className="fab fa-linkedin"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -92,32 +92,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SIDPLEX</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">100ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -129,32 +108,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Rudolph V. Spitler</a>
+                      <a>SANVORM</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">1 BOLUS</span>
+                  
                 </div>
               </div>
             </div>
@@ -166,32 +124,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Frank T. Grimsley</a>
+                      <a>SANMAC 12</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">30ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -203,32 +140,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Johnny R. Atterberry</a>
+                      <a>SANVITAM-H</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">1L</span>
+                  
                 </div>
               </div>
             </div>
@@ -240,32 +156,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Erik R. Faulkner</a>
+                      <a>SANCAL-PLUS</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">200ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -277,32 +172,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Phillip L. Williams</a>
+                      <a>SANTI X</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty"></span>
+                  
                 </div>
               </div>
             </div>
@@ -314,32 +188,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Michael I. Johnson</a>
+                      <a>SANCAL ADVANCE GEL</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">300GM</span>
+                  
                 </div>
               </div>
             </div>
@@ -354,32 +207,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SIDRAZ</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">30*6ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -391,32 +223,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SANCOOL POWDER</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">600ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -428,32 +239,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SANVORM-KIDS</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">5*10 TABLETS</span>
+                  
                 </div>
               </div>
             </div>
@@ -467,32 +257,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SAN-PLUS</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">100ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -504,32 +273,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SANPLUS-SP</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">100ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -541,32 +289,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>MASTISID</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">50+50GM</span>
+                 
                 </div>
               </div>
             </div>
@@ -580,32 +307,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANPLUS ULTRA</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">1*2BOLUS</span>
+                  
                 </div>
               </div>
             </div>
@@ -617,32 +323,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SANWORM 3.15-LA</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">30ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -654,33 +339,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SENROCIN</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                  <span className="specialty">100ML</span>
+                  </div>
               </div>
             </div>
           </div>
@@ -693,32 +356,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SIDCEF-TAZO</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">562.5MG</span>
+                  
                 </div>
               </div>
             </div>
@@ -730,32 +372,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SANZON FORT</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">100ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -767,32 +388,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SANNMIN POWDER</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">1KG</span>
+                  
                 </div>
               </div>
             </div>
@@ -806,32 +406,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANCAL GEL</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">300GM</span>
+                  
                 </div>
               </div>
             </div>
@@ -843,32 +422,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SAN HEAT</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">5*50GM</span>
+                
                 </div>
               </div>
             </div>
@@ -880,32 +438,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>LIVSID</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">200ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -919,32 +456,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANBOOST</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">6 SACHET*20GM</span>
+                  
                 </div>
               </div>
             </div>
@@ -956,32 +472,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>CLOXSID</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">4.5GM</span>
+                  
                 </div>
               </div>
             </div>
@@ -993,32 +488,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SIDCEF</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">3GM</span>
+                  
                 </div>
               </div>
             </div>
@@ -1032,32 +506,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>LIVSID</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">500ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -1069,32 +522,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SENROCIN-LA</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">100ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -1106,32 +538,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SANPUM</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">225ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -1145,32 +556,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>MILK-SOAR LIQUID</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">500ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -1182,32 +572,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>ENSURE GARBHDHARAN</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">225ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -1219,32 +588,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SANZON FORT</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">100ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -1258,32 +606,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANROTONE</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">500ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -1295,32 +622,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Greg S. Grinstead</a>
+                      <a>SANCAL-P</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Neurology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">200ML</span>
+                  
                 </div>
               </div>
             </div>
@@ -1332,32 +638,11 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Roger K. Jackson</a>
+                      <a>SANCAL-AD3</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Orthopedics</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">1L</span>
+                  
                 </div>
               </div>
             </div>
@@ -1371,36 +656,15 @@ const Doctor = () => {
                 <div className="doctor-information">
                   <h5 className="name">
                     <Link href="/doctor-details">
-                      <a>Lee S. Williamson</a>
+                      <a>SANERGY BOOSTER</a>
                     </Link>
                   </h5>
-                  <span className="specialty">Cardiology</span>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  <span className="specialty">1L</span>
+                  
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
+            {/* <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
                   <img src="assets/img/doctors/38.jpg" alt="Image" />
@@ -1436,8 +700,8 @@ const Doctor = () => {
                   </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-9">
+            </div> */}
+            {/* <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
                   <img src="assets/img/doctors/39.jpg" alt="Image" />
@@ -1473,13 +737,13 @@ const Doctor = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
 
           <div className="load-more-doctors text-center mt-40">
             <a href="#" className="template-btn template-btn-primary">
-              Male An Appointment <i className="far fa-plus"></i>{" "}
+              Contact Us <i className="far fa-plus"></i>{" "}
             </a>
           </div>
         </div>
