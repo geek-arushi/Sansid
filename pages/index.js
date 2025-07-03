@@ -41,20 +41,20 @@ const Index2 = () => {
                     data-animation="fadeInDown"
                     data-delay="0.7s"
                   >
-                    We Care Medical &amp; Health{" "}
+                    Trusted Care for the Animals You Love &amp;  Rely On{" "}
                   </h1>
                   <p data-animation="fadeInLeft" data-delay="0.8s">
-                    Dolor sit amet consectetur adipiscing elitsedes eiusmod
-                    tempor incididunt utlabore
+                    Your pet’s health deserves the best. Our vet-approved medicines treat everything from fleas and ticks to digestive problems and chronic conditions. Safe, effective, and delivered to your door.
+
                   </p>
-                  <a
+                  {/* <a
                     href="#"
                     className="template-btn"
                     data-animation="fadeInUp"
                     data-delay="0.9s"
                   >
                     Make an Appointment <i className="far fa-plus" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -165,15 +165,15 @@ const Index2 = () => {
               <div className="col-xl-5 col-lg-8 col-md-9">
                 <div className="about-text">
                   <div className="section-heading mb-30">
-                    <span className="tagline">About Seeva</span>
+                    <span className="tagline">About Sansid Pharma</span>
                     <h2 className="title">
-                      25 Years We Caring Medical Services
+                      Committed to Quality Veterinary Solutions
+
                     </h2>
                   </div>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error voluptatem
-                    accusantium doloremque laudantium totam rem aperieaquey ipsa
-                    quae abillo inventore veritatis quasi architecto
+                   Sansid Pharma delivers high-quality, research-backed veterinary medicines for pets and farm animals. We focus on safety, efficacy, and innovation to support better animal health. Our mission is simple. We deliver better health outcomes for animals with care you can count on.
+
                   </p>
                   <div className="row">
                     <div className="col-sm-6">
@@ -184,8 +184,8 @@ const Index2 = () => {
                         <div className="icon">
                           <i className="flaticon-dental-care-1" />
                         </div>
-                        <h4 className="title">Optimize Health Care Services</h4>
-                        <p>Perspiciatis unde omniste natus error volutatem</p>
+                        <h4 className="title">Backed by veterinarians</h4>
+                        <p>Trusted and recommended by leading vets to ensure safe, effective care for your pets.</p>
                       </div>
                     </div>
                     <div className="col-sm-6">
@@ -197,9 +197,9 @@ const Index2 = () => {
                           <i className="flaticon-dental-care-2" />
                         </div>
                         <h4 className="title">
-                          Accelerate Return On Investment
+                         GMP-certified & quality tested
                         </h4>
-                        <p>Perspiciatis unde omniste natus error volutatem</p>
+                        <p>Manufactured in GMP-compliant facilities with rigorous quality checks at every stage.</p>
                       </div>
                     </div>
                   </div>
@@ -217,7 +217,7 @@ const Index2 = () => {
                 <div className="section-heading text-center mb-40">
                   <span className="tagline">What We Offer</span>
                   <h2 className="title">
-                    Breakthrough in Comprehensive, Flexible Care Models
+                  Advanced Care for Pets and Farm Animals
                   </h2>
                 </div>
               </div>
@@ -232,14 +232,14 @@ const Index2 = () => {
                     <i className="flaticon-tooth-1" />
                   </div>
                   <h4 className="title">
-                    <Link href="/service-details">Medicine Care</Link>
+                    <Link href="/">Companion Animal Medicines</Link>
                   </h4>
-                  <p>Perspiciatis unde omniste natus error volutatem</p>
-                  <Link href="/service-details">
+                  <p>Effective solutions for common pet issues like ticks, digestion, deworming, and chronic care.</p>
+                  {/* <Link href="/service-details">
                     <a className="box-link">
                       <i className="far fa-plus" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-10">
@@ -251,14 +251,14 @@ const Index2 = () => {
                     <i className="flaticon-tooth-2" />
                   </div>
                   <h4 className="title">
-                    <Link href="/service-details">Medicine Care</Link>
+                    <Link href="/">Livestock Health Solutions</Link>
                   </h4>
-                  <p>Perspiciatis unde omniste natus error volutatem</p>
-                  <Link href="/service-details">
+                  <p>Targeted products to boost immunity, productivity, and overall farm animal health.</p>
+                  {/* <Link href="/service-details">
                     <a className="box-link">
                       <i className="far fa-plus" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-10">
@@ -270,14 +270,14 @@ const Index2 = () => {
                     <i className="flaticon-tooth-3" />
                   </div>
                   <h4 className="title">
-                    <Link href="/service-details">Dental Care</Link>
+                    <Link href="/">Nutritional Supplements</Link>
                   </h4>
-                  <p>Perspiciatis unde omniste natus error volutatem</p>
-                  <Link href="/service-details">
+                  <p>Supplements that enhance energy, immunity, and recovery in pets and livestock.</p>
+                  {/* <Link href="/service-details">
                     <a className="box-link">
                       <i className="far fa-plus" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-10">
@@ -289,14 +289,14 @@ const Index2 = () => {
                     <i className="flaticon-tooth-4" />
                   </div>
                   <h4 className="title">
-                    <Link href="/service-details">Child Care</Link>
+                    <Link href="/">Topical & External Applications</Link>
                   </h4>
-                  <p>Perspiciatis unde omniste natus error volutatem</p>
-                  <Link href="/service-details">
+                  <p>Gentle, effective sprays and treatments for skin, coat, and parasite protection.</p>
+                  {/* <Link href="/service-details">
                     <a className="box-link">
                       <i className="far fa-plus" />
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
