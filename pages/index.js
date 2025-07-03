@@ -304,7 +304,7 @@ const Index2 = () => {
         </section>
         {/*====== Feature Section End ======*/}
         {/*====== Call to Action Start ======*/}
-        <section
+        {/* <section
           className="cta-section bg-size-cover section-gap-100 bg-color-primary blend-mode-multiply"
           style={{
             backgroundImage: "url(assets/img/cta-img/cta-section-bg.jpg)",
@@ -344,7 +344,7 @@ const Index2 = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/*====== Call to Action End ======*/}
         {/*====== Service Section Start ======*/}
         <section className="services-section section-gap">
@@ -352,9 +352,9 @@ const Index2 = () => {
             <div className="row justify-content-center">
               <div className="col-lg-7 col-md-10">
                 <div className="section-heading text-center mb-40">
-                  <span className="tagline">Popular Medical Services</span>
+                  <span className="tagline">Animal-Specific Solutions</span>
                   <h2 className="title">
-                    Benefit For Physical Mental and Virtual Care
+                    Explore Carefully Formulated Products For Each Animals Unique Health Needs.
                   </h2>
                 </div>
               </div>
@@ -370,12 +370,11 @@ const Index2 = () => {
                   <div className="box-content">
                     <h4 className="title">
                       <Link href="/service-details">
-                        <a>Cardiology</a>
+                        <a>For Cows</a>
                       </Link>
                     </h4>
                     <p>
-                      Sed ut perspiciats undec omnise vluptate accusantium
-                      dolore
+                      Boost milk production, immunity, and digestion with vet-approved medicines designed for dairy cattle.
                     </p>
                     <Link href="/service-details">
                       <a className="box-btn">
@@ -395,11 +394,10 @@ const Index2 = () => {
                   </div>
                   <div className="box-content">
                     <h4 className="title">
-                      <Link href="/service-details">Pulmonary</Link>
+                      <Link href="/service-details">For Dogs</Link>
                     </h4>
                     <p>
-                      Sed ut perspiciats undec omnise vluptate accusantium
-                      dolore
+                      Effective treatments for ticks, worms, digestion, and skin issues. Keep your pets active, healthy, and protected every day.
                     </p>
                     <Link href="/service-details">
                       <a className="box-btn">
@@ -420,12 +418,11 @@ const Index2 = () => {
                   <div className="box-content">
                     <h4 className="title">
                       <Link href="/service-details">
-                        <a>Neurology</a>
+                        <a>For Hens</a>
                       </Link>
                     </h4>
                     <p>
-                      Sed ut perspiciats undec omnise vluptate accusantium
-                      dolore
+                      Boost immunity, productivity, and respiratory health in poultry. Specially formulated supplements and medicines for stronger flocks.
                     </p>
                     <Link href="/service-details">
                       <a className="box-btn">
@@ -445,11 +442,10 @@ const Index2 = () => {
                   </div>
                   <div className="box-content">
                     <h4 className="title">
-                      <Link href="/service-details">Covid - 19</Link>
+                      <Link href="/service-details">For Goats</Link>
                     </h4>
                     <p>
-                      Sed ut perspiciats undec omnise vluptate accusantium
-                      dolore
+                      Target bloat, digestion, deworming, and nutritional support. Made to match the unique health needs of goats in every season.
                     </p>
                     <Link href="/service-details">
                       <a className="box-btn">
@@ -462,7 +458,7 @@ const Index2 = () => {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              {/* <div className="col">
                 <div className="fancy-content-box mt-30">
                   <div className="box-thumbnail">
                     <img src="assets/img/fancy-box/05.jpg" alt="Image" />
@@ -487,7 +483,7 @@ const Index2 = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -504,10 +500,10 @@ const Index2 = () => {
                     </div>
                     <div className="counter-wrap">
                       {/* <span className="counter">359</span> */}
-                      <Counter end={359} />
+                      <Counter end={100} />
                       <span className="suffix">+</span>
                     </div>
-                    <h6 className="title">Professional Doctors</h6>
+                    <h6 className="title">Vet-Approved Products</h6>
                   </div>
                 </div>
                 <div className="col-lg-auto col-md-5 col-sm-6">
@@ -517,11 +513,11 @@ const Index2 = () => {
                     </div>
                     <div className="counter-wrap">
                       {" "}
-                      <Counter end={85} />
+                      <Counter end={40} />
                       {/* <span className="counter">85</span> */}
                       <span className="suffix">k+</span>
                     </div>
-                    <h6 className="title">Saticfied Our Clients</h6>
+                    <h6 className="title"> Satisfied Customers</h6>
                   </div>
                 </div>
                 <div className="col-lg-auto col-md-5 col-sm-6">
@@ -530,11 +526,11 @@ const Index2 = () => {
                       <i className="flaticon-stethoscope" />
                     </div>
                     <div className="counter-wrap">
-                      <Counter end={863} />
+                      <Counter end={32} />
                       {/* <span className="counter">863</span> */}
                       <span className="suffix">+</span>
                     </div>
-                    <h6 className="title">Win International Awards</h6>
+                    <h6 className="title">4.8 Star Reviews</h6>
                   </div>
                 </div>
                 <div className="col-lg-auto col-md-5 col-sm-6">
@@ -556,7 +552,7 @@ const Index2 = () => {
         </section>
         {/*====== Counter Section End ======*/}
         {/*====== Video Section Start ======*/}
-        <section className="video-section">
+        {/* <section className="video-section">
           <div className="video-with-content bg-color-primary">
             <div className="seeva-video">
               <div className="video-thumbnail">
@@ -610,7 +606,7 @@ const Index2 = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/*====== Video Section End ======*/}
         {/*====== Doctor Section Start ======*/}
         <section className="doctors-section section-gap">
@@ -618,14 +614,14 @@ const Index2 = () => {
             <div className="row justify-content-between align-items-center mb-70">
               <div className="col-lg-5 col-md-6">
                 <div className="section-heading">
-                  <span className="tagline">Professional Doctors</span>
-                  <h2 className="title">Meet Our Experience Doctors</h2>
+                  <span className="tagline">Explore Our Products</span>
+                  <h2 className="title">Targeted Care for Every Animal</h2>
                 </div>
               </div>
               <div className="col-auto">
                 <Link href="/doctors">
                   <a className="template-btn template-btn-primary mt-sm-30">
-                    Make An Appointment <i className="far fa=plus" />
+                    Show Now <i className="far fa=plus" />
                   </a>
                 </Link>
               </div>
@@ -639,7 +635,7 @@ const Index2 = () => {
                   >
                     <div className="doctor-photo">
                       <img src="assets/img/doctors/14.jpg" alt="Image" />
-                      <ul className="social-links">
+                      {/* <ul className="social-links">
                         <li>
                           <a href="#">
                             <i className="fab fa-facebook-f" />
@@ -660,7 +656,7 @@ const Index2 = () => {
                             <i className="fab fa-linkedin" />
                           </a>
                         </li>
-                      </ul>
+                      </ul> */}
                       <span className="plus-icon">
                         <i className="far fa-plus" />
                       </span>
@@ -668,10 +664,10 @@ const Index2 = () => {
                     <div className="doctor-information">
                       <h5 className="name">
                         <Link href="/doctor-details">
-                          <a>Lee S. Williamson</a>
+                          <a>SANPLUS-SP</a>
                         </Link>
                       </h5>
-                      <span className="specialty">Cardiology</span>
+                      <span className="specialty">100ML</span>
                     </div>
                   </div>
                 </div>
@@ -682,28 +678,7 @@ const Index2 = () => {
                   >
                     <div className="doctor-photo">
                       <img src="assets/img/doctors/15.jpg" alt="Image" />
-                      <ul className="social-links">
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-youtube" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
+                     
                       <span className="plus-icon">
                         <i className="far fa-plus" />
                       </span>
@@ -711,10 +686,10 @@ const Index2 = () => {
                     <div className="doctor-information">
                       <h5 className="name">
                         <Link href="/doctor-details">
-                          <a>Greg S. Grinstead </a>
+                          <a>MASTISID</a>
                         </Link>
                       </h5>
-                      <span className="specialty">Neurology</span>
+                      <span className="specialty">50+50GM</span>
                     </div>
                   </div>
                 </div>
@@ -725,37 +700,16 @@ const Index2 = () => {
                   >
                     <div className="doctor-photo">
                       <img src="assets/img/doctors/16.jpg" alt="Image" />
-                      <ul className="social-links">
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-youtube" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
+                      
                       <span className="plus-icon">
                         <i className="far fa-plus" />
                       </span>
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
-                        <Link href="/doctor-details">Roger K. Jackson </Link>
+                        <Link href="/doctor-details">SANPLUS ULTRA</Link>
                       </h5>
-                      <span className="specialty">Orthopedics</span>
+                      <span className="specialty">1*2BOLUS</span>
                     </div>
                   </div>
                 </div>
@@ -766,37 +720,16 @@ const Index2 = () => {
                   >
                     <div className="doctor-photo">
                       <img src="assets/img/doctors/17.jpg" alt="Image" />
-                      <ul className="social-links">
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-youtube" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin" />
-                          </a>
-                        </li>
-                      </ul>
+                      
                       <span className="plus-icon">
                         <i className="far fa-plus" />
                       </span>
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
-                        <Link href="/doctor-details">Ray. M. Drake </Link>
+                        <Link href="/doctor-details">SANWORM 3.15-LA </Link>
                       </h5>
-                      <span className="specialty">Cardiology</span>
+                      <span className="specialty">30ML</span>
                     </div>
                   </div>
                 </div>
@@ -903,9 +836,9 @@ const Index2 = () => {
             <div className="row justify-content-center">
               <div className="col-lg-6">
                 <div className="section-heading text-center heading-white mb-70">
-                  <span className="tagline">Our Testimonials</span>
+                  <span className="tagline">Customer Feedback</span>
                   <h2 className="title">
-                    What Our Patients Say About Our Medical
+                   Loved by Pet Parents and Farmers
                   </h2>
                 </div>
               </div>
@@ -917,17 +850,15 @@ const Index2 = () => {
               <div>
                 <div className="single-testimonial-slider">
                   <p className="content">
-                    On the other hand we denounce riteous indignation and
-                    dislike men wh beguiled and demoralized by the charms of
-                    plsure of the moment, so blinded by desire that they cannot.
+                    Our cow had recurring mastitis, and we tried multiple treatments. After using MASTISID from Sansid Pharma, the swelling reduced within days. She back to giving milk like before!
                   </p>
                   <div className="author-info-wrapper">
-                    <div className="avatar">
+                    {/* <div className="avatar">
                       <img src="assets/img/testimonial/01.png" alt="Image" />
-                    </div>
+                    </div> */}
                     <div className="author-info">
-                      <h5 className="name">Mark E. Kaminsky</h5>
-                      <span className="title">Web Designer</span>
+                      <h5 className="name"> Ramesh Yadav</h5>
+                      <span className="title">Dairy Farmer, Uttar Pradesh</span>
                     </div>
                   </div>
                 </div>
@@ -935,17 +866,15 @@ const Index2 = () => {
               <div>
                 <div className="single-testimonial-slider">
                   <p className="content">
-                    On the other hand we denounce riteous indignation and
-                    dislike men wh beguiled and demoralized by the charms of
-                    plsure of the moment, so blinded by desire that they cannot.
+                  I gave Sanergy Booster to my cow when she was weak and not giving enough milk. Within a few days, she looked stronger and started producing more milk. It really helped improve her health and energy.
                   </p>
                   <div className="author-info-wrapper">
-                    <div className="avatar">
+                    {/* <div className="avatar">
                       <img src="assets/img/testimonial/02.png" alt="Image" />
-                    </div>
+                    </div> */}
                     <div className="author-info">
-                      <h5 className="name">Ronald C. Kendall</h5>
-                      <span className="title">Web Designer</span>
+                      <h5 className="name"> Mahendra Patel</h5>
+                      <span className="title">Dairy Farmer, Gujarat</span>
                     </div>
                   </div>
                 </div>
@@ -953,17 +882,16 @@ const Index2 = () => {
               <div>
                 <div className="single-testimonial-slider">
                   <p className="content">
-                    On the other hand we denounce riteous indignation and
-                    dislike men wh beguiled and demoralized by the charms of
-                    plsure of the moment, so blinded by desire that they cannot.
+                    SantiX soap worked wonders for my dog, Bruno. His itching stopped after just two washes, and the fleas vanished completely. Plus, his coat feels softer thanks to the aloe vera. A must-have for every dog owner!
+
                   </p>
                   <div className="author-info-wrapper">
-                    <div className="avatar">
+                    {/* <div className="avatar">
                       <img src="assets/img/testimonial/01.png" alt="Image" />
-                    </div>
+                    </div> */}
                     <div className="author-info">
-                      <h5 className="name">Mark E. Kaminsky</h5>
-                      <span className="title">Web Designer</span>
+                      <h5 className="name"> Rohan M.</h5>
+                      <span className="title">Pet Parent</span>
                     </div>
                   </div>
                 </div>
@@ -971,17 +899,16 @@ const Index2 = () => {
               <div>
                 <div className="single-testimonial-slider">
                   <p className="content">
-                    On the other hand we denounce riteous indignation and
-                    dislike men wh beguiled and demoralized by the charms of
-                    plsure of the moment, so blinded by desire that they cannot.
+                    SIDPLEX has been incredibly effective for our cattle. We noticed a boost in energy, appetite, and milk production within days of use. It is now a regular part of our herd’s health routine.
+
                   </p>
                   <div className="author-info-wrapper">
-                    <div className="avatar">
+                    {/* <div className="avatar">
                       <img src="assets/img/testimonial/02.png" alt="Image" />
-                    </div>
+                    </div> */}
                     <div className="author-info">
-                      <h5 className="name">Ronald C. Kendall</h5>
-                      <span className="title">Web Designer</span>
+                      <h5 className="name">Suresh Patel</h5>
+                      <span className="title"> Dairy Farmer, Gujarat</span>
                     </div>
                   </div>
                 </div>
@@ -1004,21 +931,21 @@ const Index2 = () => {
         </section>
         {/*====== Testimonials Section End ======*/}
         {/*====== Latest Blog Start ======*/}
-        <section className="latest-blog-section section-gap">
+        {/* <section className="latest-blog-section section-gap">
           <div className="container">
             <div className="row justify-content-between align-items-center mb-40">
               <div className="col-lg-6 col-md-7">
                 <div className="section-heading">
-                  <span className="tagline">Latest News &amp; Blog</span>
+                  <span className="tagline">Animal Health Insights </span>
                   <h2 className="title">
-                    Get Every Single Updates For Medical &amp; Health
+                    Expert Advice for Healthier  &amp; Animals
                   </h2>
                 </div>
               </div>
               <div className="col-auto">
                 <Link href="/doctors">
                   <a className="template-btn mt-sm-30">
-                    View More News <i className="far fa-plus" />
+                   Read More <i className="far fa-plus" />
                   </a>
                 </Link>
               </div>
@@ -1119,7 +1046,7 @@ const Index2 = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/*====== Latest Blog End ======*/}
         {/*====== Partner Section Start ======*/}
         <div className="partner-section section-gap-80 bg-color-grey dots-map-pattern">
