@@ -19,10 +19,8 @@ const Faq = () => {
               <div className="faq-page-content pr-xl-4">
                 <h3 className="faq-title">Frequently Asked Questions</h3>
                 <p className="mb-35">
-                  Amet consectetur adipiscing sed eiusmod tempor incididunt
-                  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                  gravida. Risus commodo viverra maecenas accumsan lacus vel
-                  facilisis.
+                  Answers to the most common questions about our products, usage, safety, and services.
+
                 </p>
                 <Accordion
                   defaultActiveKey="collapse1"
@@ -38,17 +36,16 @@ const Faq = () => {
                         data-toggle="collapse"
                       >
                         <span>
-                          There Is No Such Thing As A CSS Absolute Unit
+                          What types of animals do your products cater to?
+
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse1">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                         We manufacture veterinary medicines and supplements for cows, dogs, goats, poultry (hens), and more.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -61,16 +58,14 @@ const Faq = () => {
                         onClick={() => setActive("2")}
                         data-toggle="collapse"
                       >
-                        <span>Build An E-Commerce Site With Angular</span>
+                        <span>Are your products safe for all breeds and ages?</span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse2">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          Yes, our formulations are developed by experts and are generally safe for all breeds. However, always follow the dosage guidelines or consult a veterinarian for age-specific care.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -84,17 +79,15 @@ const Faq = () => {
                         data-toggle="collapse"
                       >
                         <span>
-                          There Is No Such Thing As A CSS Absolute Unit
+                          Do I need a vet prescription to use your products?
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse3">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          Some of our products are prescription-based, especially those for specific conditions. Others, like supplements and external applications, are available for general use.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -108,17 +101,15 @@ const Faq = () => {
                         data-toggle="collapse"
                       >
                         <span>
-                          A Guide To Attracting Clients To Your Agency
+                         How can I find the right product for my animals condition?
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse4">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          You can browse our product categories by animal type or health concern. For specific conditions, we recommend consulting a licensed veterinarian.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -132,17 +123,15 @@ const Faq = () => {
                         data-toggle="collapse"
                       >
                         <span>
-                          {` Useful Front-End boilerplate's And Starter Kits`}
+                          {` Are your products approved or tested?`}
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse5">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          Yes, all Sansid Pharma products are made in GMP-certified facilities and tested for safety, quality, and efficacy.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -156,17 +145,16 @@ const Faq = () => {
                         data-toggle="collapse"
                       >
                         <span>
-                          There Is No Such Thing As A CSS Absolute Unit
+                          Do you offer nutritional supplements for animals?
+
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse6">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          Yes, we offer a wide range of nutritional supplements to support immunity, digestion, and overall health for both pets and livestock.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -179,16 +167,14 @@ const Faq = () => {
                         onClick={() => setActive("7")}
                         data-toggle="collapse"
                       >
-                        <span>Primer On CSS Container Queries</span>
+                        <span>How do I store the medicines properly?</span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse7">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          Store all products in a cool, dry place away from direct sunlight and out of reach of children and animals. Always check the label for storage instructions.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -202,17 +188,16 @@ const Faq = () => {
                         data-toggle="collapse"
                       >
                         <span>
-                          Newly Supported, Modern CSS Pseudo-Class Selectors
+                         Can I give multiple products to the same animal at once?
+
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse8">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                         Some products can be used together, but we strongly recommend checking with a vet before combining treatments or supplements.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -225,18 +210,15 @@ const Faq = () => {
                         onClick={() => setActive("9")}
                         data-toggle="collapse"
                       >
-                        <span>
-                          Useful VS Code Extensions For Front-End Developers
+                        <span>Do you offer home delivery?
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse9">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          Yes, we offer doorstep delivery for most locations. Shipping options and timelines are provided at checkout or on inquiry.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -250,17 +232,15 @@ const Faq = () => {
                         data-toggle="collapse"
                       >
                         <span>
-                          There Is No Such Thing As A CSS Absolute Unit
+                          What if my animal shows a reaction to a product?
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse10">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          Discontinue use immediately and consult a veterinarian. You can also report the issue to our support team for further assistance.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -273,16 +253,13 @@ const Faq = () => {
                         onClick={() => setActive("11")}
                         data-toggle="collapse"
                       >
-                        <span>Primer On CSS Container Queries</span>
+                        <span>Where are your products manufactured?</span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse11">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                          All our products are manufactured in India at facilities that follow strict quality control protocols and veterinary standards.
                         </p>
                       </div>
                     </Accordion.Collapse>
@@ -296,17 +273,16 @@ const Faq = () => {
                         data-toggle="collapse"
                       >
                         <span>
-                          Newly Supported, Modern CSS Pseudo-Class Selectors
+                         How can I contact Sansid Pharma for support?
+
                         </span>
                       </Accordion.Toggle>
                     </div>
                     <Accordion.Collapse eventKey="collapse11">
                       <div className="accordion-content">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error volup
-                          cusantium doloremque laudantium, totam rem aperiam
-                          eaque ipsa quae abillo inventore veritatis et quasi
-                          architecto beatae
+                         You can reach us via email at sansidpharma@gmail.com for product-related queries or support.
+
                         </p>
                       </div>
                     </Accordion.Collapse>
