@@ -75,7 +75,7 @@ const Header4 = () => {
                 <li>
                   <Link href="/doctor">
                     <a>
-                      Doctors
+                      Products
                       <span className="dd-trigger">
                         <i className="far fa-plus" />
                       </span>
