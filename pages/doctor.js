@@ -107,7 +107,7 @@ const Doctor = () => {
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
-                    <Link href="/doctor-details">
+                    <Link href="/product2">
                       <a>SANVORM</a>
                     </Link>
                   </h5>

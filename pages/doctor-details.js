@@ -3,57 +3,63 @@ import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layouts from "../src/layouts/Layouts";
 
-const DoctorDetails = () => {
+const ProductDetails = () => {
   return (
     <Layouts>
       <PageBanner
-        title={"Michael l. Johnson"}
-        pageName={"Doctor Details"}
+        title={"Sanmmin Powder"}
+        pageName={"Cattle Supplement Details"}
         bgnone
       />
-      {/* <!--====== Doctor Section Start ======--> */}
-      <section className="doctors-section section-gap">
+
+      {/* <!--====== Supplement Section Start ======--> */}
+      <section className="product-section section-gap">
         <div className="container">
-          <div className="doctor-details-wrapper">
-            <div className="doctor-info-box">
-              <div className="doctor-photo">
-                <img src="assets/img/doctors/doctor_details.jpg" alt="Image" />
-              </div>
-              <div className="doctor-description">
-                <div className="description-header">
-                  <div>
-                    <h3 className="name">Michael I. Johnson </h3>
-                    <span className="specialty">Family Care Specialist</span>
-                  </div>
-                  <div>
-                    <a href="#" className="template-btn template-btn-primary">
-                      Appointment Now <i className="far fa-plus"></i>
-                    </a>
-                  </div>
+          <div
+            className="product-info-box"
+            style={{
+              display: "flex",
+              alignItems: "flex-start",
+              gap: "40px",
+              flexWrap: "wrap",
+            }}
+          >
+            <div className="product-photo" style={{ flex: "0 0 100%", maxWidth: "500px" }}>
+              <img
+                src="assets/img/doctors/sansid_pages-to-jpg-0002.jpg"
+                alt="Sanmmin Powder"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  objectFit: "contain",
+                  borderRadius: "12px",
+                  boxShadow: "0 6px 20px rgba(0,0,0,0.15)",
+                }}
+              />
+            </div>
+
+            <div className="product-description" style={{ flex: 1 }}>
+              <div className="description-header" style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap" }}>
+                <div>
+                  <h3 className="name">Sanmmin Powder</h3>
+                  <span className="specialty">Multivitamin & Mineral Supplement for Cattle</span>
                 </div>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium demque laudantium, totam rem aperiam, eaque ipsa
-                  quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo. Nemo enim ipsam voluptate voluptas
-                  esit aspernatur aut odit aut fugit, sed quia consequuntur
-                  magni dolores eos qui rat ione voluptatem sequi nesciunt.
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non numquam eius
-                  modi tempora incidunt ut labore et dolore magnam aliquam
-                  quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                  exercitationem ullam corporis suscipit laboriosam nis aliquid
-                  ex ea commodi consequatur? Quis autem vel eum iure
-                  reprehenderit qui in ealuptate velit esse quam nihil molestiae
-                  consequatur, vel illum qui dolorem
-                </p>
+                <div>
+                  <a href="#" className="template-btn template-btn-primary">
+                    Buy Now <i className="far fa-shopping-cart"></i>
+                  </a>
+                </div>
               </div>
+              <p style={{ marginTop: "15px", textAlign: "justify" }}>
+                <strong>Sanmmin Powder</strong> is a high-quality chelated multivitamin and mineral supplement designed to boost the overall health, growth, and productivity of livestock such as cows, buffaloes, calves, goats, and sheep. It helps improve fertility, enhances milk yield and quality, supports faster growth, strengthens immunity, and prevents common issues like bloating and heat stress. Enriched with essential nutrients like calcium, phosphorus, zinc, copper, iron, vitamins A, D₃, E, biotin, lysine, and methionine, it effectively fulfills the dietary deficiencies in animals, ensuring better metabolism, stronger bones, improved reproductive health, and overall vitality. The recommended dosage is 40–60 grams daily for cows and buffaloes, and 20 grams for calves, heifers, goats, and sheep. Available in 1 kg, 5 kg, 10 kg, and 25 kg packs, Sanmmin Powder is ideal for daily feed supplementation and helps farmers maintain healthier, more productive livestock.
+              </p>
             </div>
           </div>
         </div>
       </section>
-      {/* <!--====== Doctor Section End ======--> */}
+      {/* <!--====== Supplement Section End ======--> */}
     </Layouts>
   );
 };
-export default DoctorDetails;
+
+export default ProductDetails;
