@@ -17,33 +17,11 @@ const Doctor = () => {
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>SANERGY BOOSTER</a>
+                    <Link href="/sanmminpowder">
+                      <a>SANMMIN POWDER</a>
                     </Link>
                   </h5>
-                  <span className="specialty">1L</span>
-                  {/* <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul> */}
+                  <span className="specialty">Cattle Supplement</span>
                 </div>
               </div>
             </div>
@@ -54,33 +32,11 @@ const Doctor = () => {
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
-                    <Link href="/doctor-details">
-                      <a>SANZAN-AI</a>
+                    <Link href="/mastisidpowder">
+                      <a>Mastisid Powder</a>
                     </Link>
                   </h5>
-                  <span className="specialty">30ML</span>
-                  {/* <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul> */}
+                  <span className="specialty">Veterinary Supplement</span>
                 </div>
               </div>
             </div>
@@ -96,7 +52,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">100ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -112,7 +68,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">1 BOLUS</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -128,7 +84,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">30ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -144,7 +100,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">1L</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -160,7 +116,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">200ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -176,7 +132,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty"></span>
-                  
+
                 </div>
               </div>
             </div>
@@ -192,7 +148,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">300GM</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -211,7 +167,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">30*6ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -227,7 +183,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">600ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -243,7 +199,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">5*10 TABLETS</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -261,7 +217,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">100ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -277,7 +233,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">100ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -293,7 +249,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">50+50GM</span>
-                 
+
                 </div>
               </div>
             </div>
@@ -311,7 +267,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">1*2BOLUS</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -327,7 +283,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">30ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -343,7 +299,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">100ML</span>
-                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -360,7 +316,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">562.5MG</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -376,7 +332,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">100ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -392,7 +348,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">1KG</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -410,7 +366,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">300GM</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -426,7 +382,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">5*50GM</span>
-                
+
                 </div>
               </div>
             </div>
@@ -442,7 +398,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">200ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -460,7 +416,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">6 SACHET*20GM</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -476,7 +432,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">4.5GM</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -492,7 +448,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">3GM</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -510,7 +466,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">500ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -526,7 +482,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">100ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -542,7 +498,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">225ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -560,7 +516,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">500ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -576,7 +532,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">225ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -592,7 +548,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">100ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -610,7 +566,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">500ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -626,7 +582,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">200ML</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -642,7 +598,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">1L</span>
-                  
+
                 </div>
               </div>
             </div>
@@ -660,7 +616,7 @@ const Doctor = () => {
                     </Link>
                   </h5>
                   <span className="specialty">1L</span>
-                  
+
                 </div>
               </div>
             </div>
