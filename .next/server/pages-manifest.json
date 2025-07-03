@@ -2,11 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
-  "/faq": "pages/faq.js"
-=======
-  "/": "pages/index.js",
+  "/sanmminpowder": "pages/sanmminpowder.js",
   "/doctor": "pages/doctor.js",
-  "/gallery": "pages/gallery.js"
->>>>>>> 882603851f9232b45cfada54ac176a2d402cf92d
+  "/": "pages/index.js"
 }

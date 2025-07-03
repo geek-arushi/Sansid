@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,19 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/faq": [
+    "/doctor": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-<<<<<<< HEAD
-      "static/chunks/pages/faq.js"
-=======
       "static/chunks/pages/doctor.js"
     ],
-    "/gallery": [
+    "/sanmminpowder": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/gallery.js"
->>>>>>> 882603851f9232b45cfada54ac176a2d402cf92d
+      "static/chunks/pages/sanmminpowder.js"
     ]
   },
   "ampFirstPages": []
