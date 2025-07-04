@@ -79,30 +79,6 @@ const Header3 = () => {
                   <Link href="/about">About</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Pages
-                    <span className="dd-trigger">
-                      <i className="far fa-plus" />
-                    </span>
-                  </a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link href="/service">
-                        <a>
-                          Services
-                          <span className="dd-trigger">
-                            <i className="far fa-plus" />
-                          </span>
-                        </a>
-                      </Link>
-                      <ul className="sub-menu">
-                        <Services />
-                      </ul>
-                    </li>
-                    <Pages />
-                  </ul>
-                </li>
-                <li>
                   <Link href="/doctors">
                     <a>
                       Doctors
@@ -115,41 +91,10 @@ const Header3 = () => {
                     <Doctor />
                   </ul>
                 </li>
-                <li>
-                  <Link href="/blog-standard">
-                    <a>
-                      Blog
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
-                    </a>
-                  </Link>
-                  <ul className="sub-menu">
-                    <Blog />
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/shop">
-                    <a>
-                      Shop
-                      <span className="dd-trigger">
-                        <i className="far fa-plus" />
-                      </span>
-                    </a>
-                  </Link>
-                  <ul className="sub-menu">
-                    <Shop />
-                  </ul>
-                </li>
-                <li>
+                 <li>
                   <Link href="/contact">
                     <a>Contact</a>
                   </Link>
-                </li>
-                <li>
-                  <a href="#" className="search-btn">
-                    <i className="far fa-search" />
-                  </a>
                 </li>
               </ul>
             </nav>

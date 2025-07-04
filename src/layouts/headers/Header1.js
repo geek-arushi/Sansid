@@ -9,9 +9,8 @@ const Header1 = ({ headerTopbar, position }) => {
   const [mobileTrigger, setMobileTrigger] = useState(false);
   return (
     <header
-      className={`template-header sticky-header header-one ${
-        position ? position + "-header" : ""
-      }`}
+      className={`template-header sticky-header header-one ${position ? position + "-header" : ""
+        }`}
     >
       {headerTopbar && (
         <div className="header-topbar d-none d-md-block">
@@ -97,31 +96,11 @@ const Header1 = ({ headerTopbar, position }) => {
                   </ul>
                 </li>
                 <li>
-                  <Link href="blog-standard">
-                    <a>
-                      Blog
-                    </a>
-                  </Link>
-                  <ul className="sub-menu">
-                    <Blog />
-                  </ul>
-                </li>
-                <li>
-                  <Link href="/shop">
-                    <a>
-                      Shop
-                    </a>
-                  </Link>
-                  <ul className="sub-menu">
-                    <Shop />
-                  </ul>
-                </li>
-                <li>
                   <Link href="/contact">Contact</Link>
                 </li>
                 <li>
-                    <Link href="/faq">Faq</Link>
-                  </li>
+                  <Link href="/faq">Faq</Link>
+                </li>
               </ul>
             </nav>
           </div>
