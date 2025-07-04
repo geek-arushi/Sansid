@@ -14,7 +14,7 @@ const Counter = dynamic(() => import("../src/components/Counter"), {
   ssr: false,
 });
 
-const Index2 = () => {
+const Home = () => {
   const [video, setVideo] = useState(false);
   return (
     <Layouts headerTopbar footer={2} noNewsletters>
@@ -36,25 +36,19 @@ const Index2 = () => {
                   data-animation="fadeInUp"
                   data-delay="0.4s"
                 >
-                  <h1
+                  <h3
                     className="title"
                     data-animation="fadeInDown"
                     data-delay="0.7s"
                   >
-                    Trusted Care for the Animals You Love &amp;  Rely On{" "}
-                  </h1>
+                    Trusted Care for the Animals You Love & Rely On
+                  </h3>
                   <p data-animation="fadeInLeft" data-delay="0.8s">
-                    Your pet’s health deserves the best. Our vet-approved medicines treat everything from fleas and ticks to digestive problems and chronic conditions. Safe, effective, and delivered to your door.
-
+                    Your pet's health deserves the best. Our vet-approved
+                    medicines treat everything from fleas and ticks to digestive
+                    problems and chronic conditions. Safe, effective, and
+                    delivered to your door.
                   </p>
-                  {/* <a
-                    href="#"
-                    className="template-btn"
-                    data-animation="fadeInUp"
-                    data-delay="0.9s"
-                  >
-                    Make an Appointment <i className="far fa-plus" />
-                  </a> */}
                 </div>
               </div>
             </div>
@@ -71,25 +65,19 @@ const Index2 = () => {
                   data-animation="fadeInUp"
                   data-delay="0.4s"
                 >
-                  <h1
+                  <h3
                     className="title"
                     data-animation="fadeInDown"
                     data-delay="0.7s"
                   >
-                    We Care Medical &amp; Health{" "}
-                  </h1>
+                    Advanced Veterinary Solutions for Your Animals
+                  </h3>
                   <p data-animation="fadeInLeft" data-delay="0.8s">
-                    Dolor sit amet consectetur adipiscing elitsedes eiusmod
-                    tempor incididunt utlabore
+                    Experience cutting-edge veterinary care with our
+                    comprehensive range of medicines and supplements. We
+                    prioritize your animals' wellbeing with scientifically
+                    proven treatments.
                   </p>
-                  <a
-                    href="#"
-                    className="template-btn"
-                    data-animation="fadeInUp"
-                    data-delay="0.9s"
-                  >
-                    Make an Appointment <i className="far fa-plus" />
-                  </a>
                 </div>
               </div>
             </div>
@@ -106,30 +94,23 @@ const Index2 = () => {
                   data-animation="fadeInUp"
                   data-delay="0.4s"
                 >
-                  <h1
+                  <h3
                     className="title"
                     data-animation="fadeInDown"
                     data-delay="0.7s"
                   >
-                    We Care Medical &amp; Health{" "}
-                  </h1>
+                    Quality Healthcare Products for Livestock
+                  </h3>
                   <p data-animation="fadeInLeft" data-delay="0.8s">
-                    Dolor sit amet consectetur adipiscing elitsedes eiusmod
-                    tempor incididunt utlabore
+                    From preventive care to specialized treatments, our products
+                    ensure optimal health for your livestock. Trust our
+                    expertise in delivering high-quality animal healthcare
+                    solutions.
                   </p>
-                  <a
-                    href="#"
-                    className="template-btn"
-                    data-animation="fadeInUp"
-                    data-delay="0.9s"
-                  >
-                    Make an Appointment <i className="far fa-plus" />
-                  </a>
                 </div>
               </div>
             </div>
           </Slider>
-          <div className="hero-slider-arrow" />
         </section>
         {/*====== Hero Slider End ======*/}
         {/*====== About Section Start ======*/}
@@ -168,12 +149,14 @@ const Index2 = () => {
                     <span className="tagline">About Sansid Pharma</span>
                     <h2 className="title">
                       Committed to Quality Veterinary Solutions
-
                     </h2>
                   </div>
                   <p>
-                   Sansid Pharma delivers high-quality, research-backed veterinary medicines for pets and farm animals. We focus on safety, efficacy, and innovation to support better animal health. Our mission is simple. We deliver better health outcomes for animals with care you can count on.
-
+                    Sansid Pharma delivers high-quality, research-backed
+                    veterinary medicines for pets and farm animals. We focus on
+                    safety, efficacy, and innovation to support better animal
+                    health. Our mission is simple. We deliver better health
+                    outcomes for animals with care you can count on.
                   </p>
                   <div className="row">
                     <div className="col-sm-6">
@@ -185,7 +168,10 @@ const Index2 = () => {
                           <i className="flaticon-dental-care-1" />
                         </div>
                         <h4 className="title">Backed by veterinarians</h4>
-                        <p>Trusted and recommended by leading vets to ensure safe, effective care for your pets.</p>
+                        <p>
+                          Trusted and recommended by leading vets to ensure
+                          safe, effective care for your pets.
+                        </p>
                       </div>
                     </div>
                     <div className="col-sm-6">
@@ -197,9 +183,12 @@ const Index2 = () => {
                           <i className="flaticon-dental-care-2" />
                         </div>
                         <h4 className="title">
-                         GMP-certified & quality tested
+                          GMP-certified & quality tested
                         </h4>
-                        <p>Manufactured in GMP-compliant facilities with rigorous quality checks at every stage.</p>
+                        <p>
+                          Manufactured in GMP-compliant facilities with rigorous
+                          quality checks at every stage.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -217,7 +206,7 @@ const Index2 = () => {
                 <div className="section-heading text-center mb-40">
                   <span className="tagline">What We Offer</span>
                   <h2 className="title">
-                  Advanced Care for Pets and Farm Animals
+                    Advanced Care for Pets and Farm Animals
                   </h2>
                 </div>
               </div>
@@ -234,7 +223,10 @@ const Index2 = () => {
                   <h4 className="title">
                     <Link href="/">Companion Animal Medicines</Link>
                   </h4>
-                  <p>Effective solutions for common pet issues like ticks, digestion, deworming, and chronic care.</p>
+                  <p>
+                    Effective solutions for common pet issues like ticks,
+                    digestion, deworming, and chronic care.
+                  </p>
                   {/* <Link href="/service-details">
                     <a className="box-link">
                       <i className="far fa-plus" />
@@ -253,7 +245,10 @@ const Index2 = () => {
                   <h4 className="title">
                     <Link href="/">Livestock Health Solutions</Link>
                   </h4>
-                  <p>Targeted products to boost immunity, productivity, and overall farm animal health.</p>
+                  <p>
+                    Targeted products to boost immunity, productivity, and
+                    overall farm animal health.
+                  </p>
                   {/* <Link href="/service-details">
                     <a className="box-link">
                       <i className="far fa-plus" />
@@ -272,7 +267,10 @@ const Index2 = () => {
                   <h4 className="title">
                     <Link href="/">Nutritional Supplements</Link>
                   </h4>
-                  <p>Supplements that enhance energy, immunity, and recovery in pets and livestock.</p>
+                  <p>
+                    Supplements that enhance energy, immunity, and recovery in
+                    pets and livestock.
+                  </p>
                   {/* <Link href="/service-details">
                     <a className="box-link">
                       <i className="far fa-plus" />
@@ -291,7 +289,10 @@ const Index2 = () => {
                   <h4 className="title">
                     <Link href="/">Topical & External Applications</Link>
                   </h4>
-                  <p>Gentle, effective sprays and treatments for skin, coat, and parasite protection.</p>
+                  <p>
+                    Gentle, effective sprays and treatments for skin, coat, and
+                    parasite protection.
+                  </p>
                   {/* <Link href="/service-details">
                     <a className="box-link">
                       <i className="far fa-plus" />
@@ -354,7 +355,8 @@ const Index2 = () => {
                 <div className="section-heading text-center mb-40">
                   <span className="tagline">Animal-Specific Solutions</span>
                   <h2 className="title">
-                    Explore Carefully Formulated Products For Each Animals Unique Health Needs.
+                    Explore Carefully Formulated Products For Each Animals
+                    Unique Health Needs.
                   </h2>
                 </div>
               </div>
@@ -374,7 +376,8 @@ const Index2 = () => {
                       </Link>
                     </h4>
                     <p>
-                      Boost milk production, immunity, and digestion with vet-approved medicines designed for dairy cattle.
+                      Boost milk production, immunity, and digestion with
+                      vet-approved medicines designed for dairy cattle.
                     </p>
                     <Link href="/service-details">
                       <a className="box-btn">
@@ -397,7 +400,9 @@ const Index2 = () => {
                       <Link href="/service-details">For Dogs</Link>
                     </h4>
                     <p>
-                      Effective treatments for ticks, worms, digestion, and skin issues. Keep your pets active, healthy, and protected every day.
+                      Effective treatments for ticks, worms, digestion, and skin
+                      issues. Keep your pets active, healthy, and protected
+                      every day.
                     </p>
                     <Link href="/service-details">
                       <a className="box-btn">
@@ -422,7 +427,9 @@ const Index2 = () => {
                       </Link>
                     </h4>
                     <p>
-                      Boost immunity, productivity, and respiratory health in poultry. Specially formulated supplements and medicines for stronger flocks.
+                      Boost immunity, productivity, and respiratory health in
+                      poultry. Specially formulated supplements and medicines
+                      for stronger flocks.
                     </p>
                     <Link href="/service-details">
                       <a className="box-btn">
@@ -445,7 +452,9 @@ const Index2 = () => {
                       <Link href="/service-details">For Goats</Link>
                     </h4>
                     <p>
-                      Target bloat, digestion, deworming, and nutritional support. Made to match the unique health needs of goats in every season.
+                      Target bloat, digestion, deworming, and nutritional
+                      support. Made to match the unique health needs of goats in
+                      every season.
                     </p>
                     <Link href="/service-details">
                       <a className="box-btn">
@@ -678,7 +687,7 @@ const Index2 = () => {
                   >
                     <div className="doctor-photo">
                       <img src="assets/img/doctors/15.jpg" alt="Image" />
-                     
+
                       <span className="plus-icon">
                         <i className="far fa-plus" />
                       </span>
@@ -700,7 +709,7 @@ const Index2 = () => {
                   >
                     <div className="doctor-photo">
                       <img src="assets/img/doctors/16.jpg" alt="Image" />
-                      
+
                       <span className="plus-icon">
                         <i className="far fa-plus" />
                       </span>
@@ -720,7 +729,7 @@ const Index2 = () => {
                   >
                     <div className="doctor-photo">
                       <img src="assets/img/doctors/17.jpg" alt="Image" />
-                      
+
                       <span className="plus-icon">
                         <i className="far fa-plus" />
                       </span>
@@ -837,9 +846,7 @@ const Index2 = () => {
               <div className="col-lg-6">
                 <div className="section-heading text-center heading-white mb-70">
                   <span className="tagline">Customer Feedback</span>
-                  <h2 className="title">
-                   Loved by Pet Parents and Farmers
-                  </h2>
+                  <h2 className="title">Loved by Pet Parents and Farmers</h2>
                 </div>
               </div>
             </div>
@@ -850,7 +857,10 @@ const Index2 = () => {
               <div>
                 <div className="single-testimonial-slider">
                   <p className="content">
-                    Our cow had recurring mastitis, and we tried multiple treatments. After using MASTISID from Sansid Pharma, the swelling reduced within days. She back to giving milk like before!
+                    Our cow had recurring mastitis, and we tried multiple
+                    treatments. After using MASTISID from Sansid Pharma, the
+                    swelling reduced within days. She back to giving milk like
+                    before!
                   </p>
                   <div className="author-info-wrapper">
                     {/* <div className="avatar">
@@ -866,7 +876,10 @@ const Index2 = () => {
               <div>
                 <div className="single-testimonial-slider">
                   <p className="content">
-                  I gave Sanergy Booster to my cow when she was weak and not giving enough milk. Within a few days, she looked stronger and started producing more milk. It really helped improve her health and energy.
+                    I gave Sanergy Booster to my cow when she was weak and not
+                    giving enough milk. Within a few days, she looked stronger
+                    and started producing more milk. It really helped improve
+                    her health and energy.
                   </p>
                   <div className="author-info-wrapper">
                     {/* <div className="avatar">
@@ -882,8 +895,10 @@ const Index2 = () => {
               <div>
                 <div className="single-testimonial-slider">
                   <p className="content">
-                    SantiX soap worked wonders for my dog, Bruno. His itching stopped after just two washes, and the fleas vanished completely. Plus, his coat feels softer thanks to the aloe vera. A must-have for every dog owner!
-
+                    SantiX soap worked wonders for my dog, Bruno. His itching
+                    stopped after just two washes, and the fleas vanished
+                    completely. Plus, his coat feels softer thanks to the aloe
+                    vera. A must-have for every dog owner!
                   </p>
                   <div className="author-info-wrapper">
                     {/* <div className="avatar">
@@ -899,8 +914,10 @@ const Index2 = () => {
               <div>
                 <div className="single-testimonial-slider">
                   <p className="content">
-                    SIDPLEX has been incredibly effective for our cattle. We noticed a boost in energy, appetite, and milk production within days of use. It is now a regular part of our herd’s health routine.
-
+                    SIDPLEX has been incredibly effective for our cattle. We
+                    noticed a boost in energy, appetite, and milk production
+                    within days of use. It is now a regular part of our herd’s
+                    health routine.
                   </p>
                   <div className="author-info-wrapper">
                     {/* <div className="avatar">
@@ -1114,4 +1131,4 @@ const Index2 = () => {
     </Layouts>
   );
 };
-export default Index2;
+export default Home;
