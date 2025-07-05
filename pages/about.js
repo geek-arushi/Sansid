@@ -68,7 +68,8 @@ const About = () => {
                   <p>10 Years Of Experience </p>
                 </div>
                 <p>
-                  Sansid Pharma Private Limited is committed to empowering Indias livestock sector with the motto “Humans Thrive if Cows Survive.” With decades of experience and a deep focus on innovation, we aim to maximize animal productivity by delivering high-quality, affordable, and accessible pharmaceutical products across the country.
+                  Sansid Pharma Private Limited is committed to empowering Indias livestock sector with the motto “Humans Thrive if Cows Survive.” With decades of experience and a deep focus on innovation, we aim to maximize animal productivity by delivering high-quality, affordable, and accessible pharmaceutical products across the country.Rooted in the principles of affordability, accessibility, innovation, teamwork, excellence, and traditional knowledge, Sansid Pharma continues to grow as a trusted name in animal healthcare. We believe that collaboration and indigenous wisdom are key to sustainable growth and self-reliance.
+
 
                 </p>
                 <Link href="/contact">
