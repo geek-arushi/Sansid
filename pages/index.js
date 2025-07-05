@@ -45,7 +45,7 @@ const Home = () => {
                     Trusted Care for the Animals You Love & Rely On
                   </h3>
                   <p data-animation="fadeInLeft" data-delay="0.8s">
-                    Your pet's health deserves the best. Our vet-approved
+                    Your pets health deserves the best. Our vet-approved
                     medicines treat everything from fleas and ticks to digestive
                     problems and chronic conditions. Safe, effective, and
                     delivered to your door.
@@ -76,7 +76,7 @@ const Home = () => {
                   <p data-animation="fadeInLeft" data-delay="0.8s">
                     Experience cutting-edge veterinary care with our
                     comprehensive range of medicines and supplements. We
-                    prioritize your animals' wellbeing with scientifically
+                    prioritize your animals wellbeing with scientifically
                     proven treatments.
                   </p>
                 </div>
@@ -374,7 +374,7 @@ const Home = () => {
                   </div>
                   <div className="box-content">
                     <h4 className="title">
-                      <Link href="/service-details">
+                      <Link href="/contact">
                         <a>For Cows</a>
                       </Link>
                     </h4>
@@ -382,14 +382,14 @@ const Home = () => {
                       Boost milk production, immunity, and digestion with
                       vet-approved medicines designed for dairy cattle.
                     </p>
-                    <Link href="/service-details">
+                    <Link href="/contact">
                       <a className="box-btn">
                         Read More <i className="far fa-plus" />
                       </a>
                     </Link>
-                    <div className="box-icon">
+                    {/* <div className="box-icon">
                       <i className="flaticon-virus" />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -407,14 +407,12 @@ const Home = () => {
                       issues. Keep your pets active, healthy, and protected
                       every day.
                     </p>
-                    <Link href="/service-details">
+                    <Link href="/contact">
                       <a className="box-btn">
                         Read More <i className="far fa-plus" />
                       </a>
                     </Link>
-                    <div className="box-icon">
-                      <i className="flaticon-virus" />
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -425,7 +423,7 @@ const Home = () => {
                   </div>
                   <div className="box-content">
                     <h4 className="title">
-                      <Link href="/service-details">
+                      <Link href="/contact">
                         <a>For Hens</a>
                       </Link>
                     </h4>
@@ -434,14 +432,12 @@ const Home = () => {
                       poultry. Specially formulated supplements and medicines
                       for stronger flocks.
                     </p>
-                    <Link href="/service-details">
+                    <Link href="/contact">
                       <a className="box-btn">
                         Read More <i className="far fa-plus" />
                       </a>
                     </Link>
-                    <div className="box-icon">
-                      <i className="flaticon-virus" />
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -452,21 +448,19 @@ const Home = () => {
                   </div>
                   <div className="box-content">
                     <h4 className="title">
-                      <Link href="/service-details">For Goats</Link>
+                      <Link href="/contact">For Goats</Link>
                     </h4>
                     <p>
                       Target bloat, digestion, deworming, and nutritional
                       support. Made to match the unique health needs of goats in
                       every season.
                     </p>
-                    <Link href="/service-details">
+                    <Link href="/contact">
                       <a className="box-btn">
                         Read More <i className="far fa-plus" />
                       </a>
                     </Link>
-                    <div className="box-icon">
-                      <i className="flaticon-virus" />
-                    </div>
+                    {/*  */}
                   </div>
                 </div>
               </div>
@@ -631,7 +625,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-auto">
-                <Link href="/doctors">
+                <Link href="/contact">
                   <a className="template-btn template-btn-primary mt-sm-30">
                     Show Now <i className="far fa=plus" />
                   </a>
@@ -669,9 +663,9 @@ const Home = () => {
                           </a>
                         </li>
                       </ul> */}
-                      <span className="plus-icon">
+                      {/* <span className="plus-icon">
                         <i className="far fa-plus" />
-                      </span>
+                      </span> */}
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -691,9 +685,7 @@ const Home = () => {
                     <div className="doctor-photo">
                       <Image src="/assets/img/doctors/15.jpg" alt="Image" width={500} height={300} />
 
-                      <span className="plus-icon">
-                        <i className="far fa-plus" />
-                      </span>
+                      
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -713,9 +705,7 @@ const Home = () => {
                     <div className="doctor-photo">
                       <Image src="/assets/img/doctors/16.jpg" alt="Image" width={500} height={300} />
 
-                      <span className="plus-icon">
-                        <i className="far fa-plus" />
-                      </span>
+                      
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -733,9 +723,7 @@ const Home = () => {
                     <div className="doctor-photo">
                       <Image src="/assets/img/doctors/17.jpg" alt="Image" width={500} height={300} />
 
-                      <span className="plus-icon">
-                        <i className="far fa-plus" />
-                      </span>
+                     
                     </div>
                     <div className="doctor-information">
                       <h5 className="name">
@@ -1069,7 +1057,7 @@ const Home = () => {
         </section> */}
         {/*====== Latest Blog End ======*/}
         {/*====== Partner Section Start ======*/}
-        <div className="partner-section section-gap-80 bg-color-grey dots-map-pattern">
+        {/* <div className="partner-section section-gap-80 bg-color-grey dots-map-pattern">
           <div className="container">
             <div className="section-heading text-center mb-50">
               <span className="tagline">Our Trusted Partners</span>
@@ -1128,7 +1116,7 @@ const Home = () => {
               </div>
             </Slider>
           </div>
-        </div>
+        </div> */}
         {/*====== Partner Section End ======*/}
       </>
     </Layouts>

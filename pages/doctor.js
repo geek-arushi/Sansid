@@ -241,11 +241,11 @@ const Doctor = () => {
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
-                    <Link href="/doctor-details">
+                    <Link href="/sanplus">
                       <a>SANPLUS-SP</a>
                     </Link>
                   </h5>
-                  <span className="specialty">100ML</span>
+                  <span className="specialty">Veterinary Injection & Bolus</span>
 
                 </div>
               </div>
@@ -257,11 +257,11 @@ const Doctor = () => {
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
-                    <Link href="/doctor-details">
+                    <Link href="/mastisid">
                       <a>MASTISID</a>
                     </Link>
                   </h5>
-                  <span className="specialty">50+50GM</span>
+                  <span className="specialty">Veterinary Feed Supplement</span>
 
                 </div>
               </div>
@@ -275,11 +275,11 @@ const Doctor = () => {
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
-                    <Link href="/doctor-details">
+                    <Link href="/contact">
                       <a>SANPLUS ULTRA</a>
                     </Link>
                   </h5>
-                  <span className="specialty">1*2BOLUS</span>
+                  <span className="specialty">Cattle Supplement</span>
 
                 </div>
               </div>
