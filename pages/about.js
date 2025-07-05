@@ -62,20 +62,16 @@ const About = () => {
             <div className="col-xl-5 col-lg-6 col-md-8">
               <div className="about-text">
                 <div className="section-heading mb-35">
-                  <span className="tagline">About Seeva</span>
-                  <h2 className="title">All-in-One Worksite Health Solution</h2>
+                  <span className="tagline">About Sansid</span>
+                  <h2 className="title">All-in-One Worksite Cattle Solution</h2>
 
-                  <p>25 Years Of Experience in Medical Services</p>
+                  <p>10 Years Of Experience </p>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium totam rem aperieaque ipsa
-                  quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo. Nemo enim ipsam voluptatemsy quia
-                  voluptas sit aspernatur aut odit aut fugit quia conquntur
-                  magni dolores eos qui ratione voluptatem
+                  Sansid Pharma Private Limited is committed to empowering Indias livestock sector with the motto “Humans Thrive if Cows Survive.” With decades of experience and a deep focus on innovation, we aim to maximize animal productivity by delivering high-quality, affordable, and accessible pharmaceutical products across the country.
+
                 </p>
-                <Link href="/about">
+                <Link href="/contact">
                   <a className="template-btn mt-40">
                     Learn More <i className="far fa-plus"></i>
                   </a>
@@ -94,14 +90,16 @@ const About = () => {
             <div className="row justify-content-center">
               <div className="col-md-10">
                 <div className="section-heading heading-white text-center mb-40">
-                  <span className="tagline">Why Choose Our Medical</span>
+                  <span className="tagline">Mission ans Vision</span>
                   <h2 className="title">
-                    Breakthrough in Comprehensive, Flexible Care Delivery Models
+                    To establish India as a self-reliant nation in livestock healthcare by providing innovative and accessible veterinary solutions. We strive to become a leading pharmaceutical company through our unwavering commitment and the strength of our highly skilled team—including medical representatives, quality experts, and trained professionals.
+
+                    At Sansid Pharma, we are proud to deliver promising solutions that make a meaningful impact on the lives of livestock and the cattlemen who care for them.
                   </h2>
                 </div>
               </div>
             </div>
-            <div className="row justify-content-center">
+            {/* <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-9">
                 <div
                   className="image-title-box mt-30 wow fadeInUp"
@@ -150,13 +148,13 @@ const About = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         {/* <!--====== Why Choose Section End ======--> */}
 
         {/* <!--====== Doctor Section Start ======--> */}
-        <section className="doctors-section bg-color-grey polygon-pattern-2">
+        {/* <section className="doctors-section bg-color-grey polygon-pattern-2">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-6 col-md-6">
@@ -341,12 +339,12 @@ const About = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <!--====== Doctor Section End ======--> */}
       </div>
 
       {/* <!--====== FAQ Section Start ======--> */}
-      <section className="faq-section section-gap">
+      {/* <section className="faq-section section-gap">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-10">
@@ -457,7 +455,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layouts>
   );
 };
