@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
 import Layouts from "../src/layouts/Layouts";
+import Image from "next/image";
 
 const About = () => {
   const [toggle, setToggle] = useState(1);
@@ -20,18 +21,24 @@ const About = () => {
                       className="single-img wow fadeInLeft"
                       data-wow-delay="0.3s"
                     >
-                      <img
-                        src="assets/img/circle-image-gallery/01.jpg"
-                        alt=""
+                      <Image
+                        src="/assets/img/circle-image-gallery/01.jpg"
+                        alt="gallery image"
+                        width={400}
+                        height={400}
+                        style={{ maxWidth: "100%", height: "auto" }}
                       />
                     </div>
                     <div
                       className="single-img wow fadeInRight"
                       data-wow-delay="0.4s"
                     >
-                      <img
-                        src="assets/img/circle-image-gallery/04.jpg"
-                        alt=""
+                      <Image
+                        src="/assets/img/circle-image-gallery/04.jpg"
+                        alt="gallery image"
+                        width={400}
+                        height={400}
+                        style={{ maxWidth: "100%", height: "auto" }}
                       />
                     </div>
                   </div>
@@ -40,19 +47,25 @@ const About = () => {
                       className="single-img wow fadeInRight"
                       data-wow-delay="0.5s"
                     >
-                      <img
+                      <Image
+                        src="/assets/img/circle-image-gallery/03.jpg"
+                        alt="gallery image"
+                        width={400}
+                        height={400}
                         className="animate-float-bob-y"
-                        src="assets/img/circle-image-gallery/03.jpg"
-                        alt=""
+                        style={{ maxWidth: "100%", height: "auto" }}
                       />
                     </div>
                     <div
                       className="single-img wow fadeInLeft"
                       data-wow-delay="0.6s"
                     >
-                      <img
-                        src="assets/img/circle-image-gallery/02.jpg"
-                        alt=""
+                      <Image
+                        src="/assets/img/circle-image-gallery/02.jpg"
+                        alt="gallery image"
+                        width={400}
+                        height={400}
+                        style={{ maxWidth: "100%", height: "auto" }}
                       />
                     </div>
                   </div>
@@ -114,7 +127,13 @@ const About = () => {
                   </h4>
 
                   <div className="image">
-                    <img src="assets/img/img-title-box/01.jpg" alt="Image" />
+                    <Image 
+                      src="/assets/img/img-title-box/01.jpg" 
+                      alt="Image" 
+                      width={400}
+                      height={300}
+                      style={{ width: '100%', height: 'auto' }}
+                    />
                   </div>
                 </div>
               </div>
@@ -130,7 +149,13 @@ const About = () => {
                   </h4>
 
                   <div className="image">
-                    <img src="assets/img/img-title-box/02.jpg" alt="Image" />
+                    <Image 
+                      src="/assets/img/img-title-box/02.jpg" 
+                      alt="Image" 
+                      width={400}
+                      height={300}
+                      style={{ width: '100%', height: 'auto' }}
+                    />
                   </div>
                 </div>
               </div>
@@ -146,7 +171,13 @@ const About = () => {
                   </h4>
 
                   <div className="image">
-                    <img src="assets/img/img-title-box/03.jpg" alt="Image" />
+                    <Image 
+                      src="/assets/img/img-title-box/03.jpg" 
+                      alt="Image" 
+                      width={400}
+                      height={300}
+                      style={{ width: '100%', height: 'auto' }}
+                    />
                   </div>
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Image from 'next/image';
 import { useState } from "react";
 import Slider from "react-slick";
 import VideoPopup from "../src/components/VideoPopup";
@@ -123,23 +124,25 @@ const Home = () => {
                     className="image-one wow fadeInLeft"
                     data-wow-delay="0.3s"
                   >
-                    <img
+                    <Image
                       className="animate-float-bob-x"
-                      src="assets/img/tile-gallery/01.jpg"
+                      src="/assets/img/tile-gallery/01.jpg"
                       alt="Image"
+                      width={500}
+                      height={300}
                     />
                   </div>
                   <div
                     className="image-two wow fadeInDown"
                     data-wow-delay="0.4s"
                   >
-                    <img src="assets/img/tile-gallery/02.jpg" alt="Image" />
+                    <Image src="/assets/img/tile-gallery/02.jpg" alt="Image" width={500} height={300} />
                   </div>
                   <div
                     className="image-three wow fadeInUp"
                     data-wow-delay="0.5s"
                   >
-                    <img src="assets/img/tile-gallery/03.jpg" alt="Image" />
+                    <Image src="/assets/img/tile-gallery/03.jpg" alt="Image" width={500} height={300} />
                   </div>
                 </div>
               </div>
@@ -643,7 +646,7 @@ const Home = () => {
                     data-wow-delay="0.3s"
                   >
                     <div className="doctor-photo">
-                      <img src="assets/img/doctors/14.jpg" alt="Image" />
+                      <Image src="/assets/img/doctors/14.jpg" alt="Image" width={500} height={300} />
                       {/* <ul className="social-links">
                         <li>
                           <a href="#">
@@ -686,7 +689,7 @@ const Home = () => {
                     data-wow-delay="0.4s"
                   >
                     <div className="doctor-photo">
-                      <img src="assets/img/doctors/15.jpg" alt="Image" />
+                      <Image src="/assets/img/doctors/15.jpg" alt="Image" width={500} height={300} />
 
                       <span className="plus-icon">
                         <i className="far fa-plus" />
@@ -708,7 +711,7 @@ const Home = () => {
                     data-wow-delay="0.5s"
                   >
                     <div className="doctor-photo">
-                      <img src="assets/img/doctors/16.jpg" alt="Image" />
+                      <Image src="/assets/img/doctors/16.jpg" alt="Image" width={500} height={300} />
 
                       <span className="plus-icon">
                         <i className="far fa-plus" />
@@ -728,7 +731,7 @@ const Home = () => {
                     data-wow-delay="0.6s"
                   >
                     <div className="doctor-photo">
-                      <img src="assets/img/doctors/17.jpg" alt="Image" />
+                      <Image src="/assets/img/doctors/17.jpg" alt="Image" width={500} height={300} />
 
                       <span className="plus-icon">
                         <i className="far fa-plus" />
@@ -1075,52 +1078,52 @@ const Home = () => {
             <Slider {...partnerSlider} className="row partner-logo-slider">
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/09.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/09.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/10.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/10.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/11.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/11.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/12.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/12.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/13.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/13.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/09.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/09.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/10.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/10.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/11.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/11.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/12.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/12.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
               <div className="col partner-logo-box">
                 <a href="#">
-                  <img src="assets/img/partner-logos/13.png" alt="Logo" />
+                  <Image src="/assets/img/partner-logos/13.png" alt="Logo" width={200} height={100} />
                 </a>
               </div>
             </Slider>

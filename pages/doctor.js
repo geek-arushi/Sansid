@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layouts from "../src/layouts/Layouts";
+import Image from 'next/image';
 
 const Doctor = () => {
   return (
@@ -13,7 +14,13 @@ const Doctor = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
-                  <img src="assets/img/doctors/01.jpg" alt="Image" />
+                  <Image 
+                    src="/assets/img/doctors/01.jpg" 
+                    alt="Image" 
+                    width={400}
+                    height={500}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">
@@ -28,7 +35,13 @@ const Doctor = () => {
             <div className="col-lg-4 col-md-6 col-sm-9">
               <div className="doctor-box-one mb-30">
                 <div className="doctor-photo">
-                  <img src="assets/img/doctors/02.jpg" alt="Image" />
+                  <Image 
+                    src="/assets/img/doctors/02.jpg" 
+                    alt="Image" 
+                    width={400}
+                    height={500}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
                 </div>
                 <div className="doctor-information">
                   <h5 className="name">

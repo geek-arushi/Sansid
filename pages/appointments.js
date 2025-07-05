@@ -1,6 +1,7 @@
 import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import Layouts from "../src/layouts/Layouts";
+import Image from 'next/image';
 
 const Appointments = () => {
   return (
@@ -85,13 +86,25 @@ const Appointments = () => {
             <div className="col-lg-6 col-md-10">
               <div className="tile-gallery-two pr-lg-3">
                 <div className="image-one">
-                  <img src="assets/img/tile-gallery/04.jpg" alt="Image" />
+                  <Image 
+                    src="/assets/img/tile-gallery/04.jpg" 
+                    alt="Image" 
+                    width={600}
+                    height={400}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
                 </div>
                 <div
                   className="image-two text-right wow fadeInUp"
                   data-wow-delay="0.3s"
                 >
-                  <img src="assets/img/tile-gallery/05.jpg" alt="Image" />
+                  <Image 
+                    src="/assets/img/tile-gallery/05.jpg" 
+                    alt="Image" 
+                    width={600}
+                    height={400}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
                 </div>
               </div>
             </div>
