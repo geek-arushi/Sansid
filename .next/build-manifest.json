@@ -29,18 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-<<<<<<< HEAD
-    "/about": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/about.js"
-=======
-    "/faq": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/faq.js"
->>>>>>> 75e4dc573bb4e383e1cb660bf7dc5cce2daf3942
     ]
   },
   "ampFirstPages": []

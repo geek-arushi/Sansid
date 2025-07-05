@@ -44,7 +44,7 @@ const Home = () => {
                     Trusted Care for the Animals You Love & Rely On
                   </h3>
                   <p data-animation="fadeInLeft" data-delay="0.8s">
-                    Your pet's health deserves the best. Our vet-approved
+                    Your pets health deserves the best. Our vet-approved
                     medicines treat everything from fleas and ticks to digestive
                     problems and chronic conditions. Safe, effective, and
                     delivered to your door.
@@ -75,7 +75,7 @@ const Home = () => {
                   <p data-animation="fadeInLeft" data-delay="0.8s">
                     Experience cutting-edge veterinary care with our
                     comprehensive range of medicines and supplements. We
-                    prioritize your animals' wellbeing with scientifically
+                    prioritize your animals wellbeing with scientifically
                     proven treatments.
                   </p>
                 </div>
@@ -1066,7 +1066,7 @@ const Home = () => {
         </section> */}
         {/*====== Latest Blog End ======*/}
         {/*====== Partner Section Start ======*/}
-        <div className="partner-section section-gap-80 bg-color-grey dots-map-pattern">
+        {/* <div className="partner-section section-gap-80 bg-color-grey dots-map-pattern">
           <div className="container">
             <div className="section-heading text-center mb-50">
               <span className="tagline">Our Trusted Partners</span>
@@ -1125,7 +1125,7 @@ const Home = () => {
               </div>
             </Slider>
           </div>
-        </div>
+        </div> */}
         {/*====== Partner Section End ======*/}
       </>
     </Layouts>
