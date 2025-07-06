@@ -69,27 +69,30 @@ const Footer2 = ({ noNewsletters }) => {
                     <img src="assets/img/logo-white.png" alt="Medibo" />
                   </div>
                   <p>
-                    Sed ut perspi unde omniste natus error sit voluptatem acc
-                    doloremque laudantium
+                    Sansid Pharma Pvt. Ltd.
+Always there to care
+
                   </p>
                   <ul className="contact-list">
                     <li>
-                      <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7">
+                      <a href="">
                         <i className="far fa-map-marker-alt" />
-                        55 Main Road, USA
+                       Shop No.2, Samarth Complex,
+Ur. Devachi, Pune – 412308 (M.H)
+
                       </a>
                     </li>
                     <li>
-                      <a href="mailto:support@gmail.com">
+                      <a href="">
                         <i className="far fa-envelope" />
-                        support@gmail.com
+                        sansidpharma@gmail.com
                       </a>
                     </li>
                     <li>
-                      <a href="tel:01267899">
+                      {/* <a href="tel:01267899">
                         <i className="far fa-phone" />
-                        +012 (345) 678 99
-                      </a>
+                       
+                      </a> */}
                     </li>
                   </ul>
                 </div>
@@ -99,26 +102,24 @@ const Footer2 = ({ noNewsletters }) => {
                   <div className="col-xl-5 col-sm-6">
                     <div className="d-flex justify-content-lg-center">
                       <div className="widget nav-widget">
-                        <h4 className="widget-title">Popular Services</h4>
+                        <h4 className="widget-title">Quick Links</h4>
                         <ul className="nav-links">
                           <li>
-                            <a href="#">Orthopedic Care</a>
+                            <a href="#">Home</a>
                           </li>
                           <li>
-                            <a href="#">Gynecology Care</a>
+                            <a href="#">About us</a>
                           </li>
                           <li>
-                            <a href="#">Cardiology Care</a>
+                            <a href="#">Contact Us</a>
                           </li>
                           <li>
-                            <a href="#">Dentistry Care</a>
+                            <a href="#">Terms & Conditions</a>
                           </li>
                           <li>
-                            <a href="#">Gastroenterology</a>
+                            <a href="#">Privacy Policy</a>
                           </li>
-                          <li>
-                            <a href="#">Urgent Care</a>
-                          </li>
+                         
                         </ul>
                       </div>
                     </div>
@@ -126,26 +127,26 @@ const Footer2 = ({ noNewsletters }) => {
                   <div className="col-xl-5 col-sm-6">
                     <div className="d-flex justify-content-lg-center">
                       <div className="widget nav-widget">
-                        <h4 className="widget-title">About Us</h4>
+                        <h4 className="widget-title">Product Categories</h4>
                         <ul className="nav-links">
                           <li>
-                            <a href="#">Success Story</a>
+                            <a href="#">For Cows</a>
                           </li>
                           <li>
-                            <a href="#">Need a Career ?</a>
+                            <a href="#">For Dogs</a>
                           </li>
                           <li>
-                            <a href="#">Privacy Policy</a>
+                            <a href="#">For Hens</a>
                           </li>
                           <li>
-                            <a href="#">Need Support ?</a>
+                            <a href="#">For Goats</a>
                           </li>
                           <li>
-                            <a href="#">Doctors</a>
+                            <a href="#">For Fish</a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="#">Latest News</a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -154,7 +155,7 @@ const Footer2 = ({ noNewsletters }) => {
               </div>
               <div className="col-lg-3 col-md-10">
                 <div className="widget newsletters-widget">
-                  <h4 className="widget-title">Newsletters</h4>
+                  <h4 className="widget-title">Stay Connected</h4>
                   <p>
                     Sed ut perspiciatis unde omniste <br /> natus error sit
                     voluptatem

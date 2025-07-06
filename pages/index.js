@@ -622,7 +622,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-auto">
-                <Link href="/contact">
+                <Link href="/doctors">
                   <a className="template-btn template-btn-primary mt-sm-30">
                     Show Now <i className="far fa=plus" />
                   </a>
